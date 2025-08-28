@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 import os
 
 
-TOKEN = 8393611715:AAEmY_I1i7bpnWz_jCsQCK1PP6Drcivm_Gs
+TOKEN = 8212552805:AAGqGeWmqDMcCSuNx_goQH24u8Q_u8VmWG4
 
 # Yaha apne channels daalo
 CHANNELS = ["@shadow_studio_fan", "@https://t.me/+qjpi1QXEkZtlOTk1l"]
@@ -33,7 +33,7 @@ async def verify(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
 
     await query.edit_message_text(
-        "✅ Verified! Yeh lo aapka episode link:\n👉 https://your-link-here.com"
+        "✅ Verified! Yeh lo aapka episode link:\n👉 https://t.me/+Bna0LOu0t8IwMGRl
     )
 
 def main():
